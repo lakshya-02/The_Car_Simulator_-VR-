@@ -3,7 +3,8 @@ A fully immersive car driving simulator in Unity with VR support using Meta Ques
 
 ---
 
-![Uploading vr-driving.webp…]()
+<img width="1200" height="675" alt="vr-driving" src="https://github.com/user-attachments/assets/fd903669-6e49-40ce-8970-ea25db81879e" />
+
 
 
 ## 🔥 Features  
