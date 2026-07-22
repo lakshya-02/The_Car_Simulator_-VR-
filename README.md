@@ -36,7 +36,8 @@ A fully immersive car driving simulator in Unity with VR support using Meta Ques
 ## 🛠️ Tech Stack & Tools  
 - **Game Engine:** Unity 2022.3.51f1  
 - **VR SDK:** OpenXR with Meta Quest 2 support  
-- **Input System:** XR Interaction Toolkit and Scripts  
+- **Input System:** Unity Input System Package (New) 1.11.2 + XR Interaction Toolkit  
+  - See [INPUT_SETUP.md](INPUT_SETUP.md) for detailed input configuration
 - **Hardware:**  
     - Meta Quest 2 VR headset  
     - NITTO Drive 1 Pro steering wheel (Xbox mode)  
@@ -134,6 +135,11 @@ cd VR-Game
 ---
 
 ## 🛠️ Troubleshooting  
+
+✅ **Input System Warnings:**  
+- The project uses Unity's **New Input System** (not the old Input Manager).
+- See [INPUT_SETUP.md](INPUT_SETUP.md) for detailed configuration guide.
+- If you see StandaloneInputModule warnings, they have been resolved in the latest version.
 
 ✅ **VR Not Detecting in Unity:**  
 - Ensure **Air Link** is enabled in Meta Quest 2 settings.  
